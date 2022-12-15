@@ -40,7 +40,7 @@ public final class Desenvolvedor {
         return horasDiariasDisponiveis;
     }
 
-    double calculaValorHora() {
-        return (salarioMensalPretendido / (DIAS_UTEIS * horasDiariasDisponiveis));
+    int calculaValorHora() {
+        return (int) (salarioMensalPretendido / (DIAS_UTEIS * horasDiariasDisponiveis));
     }
 }

@@ -1,0 +1,6 @@
+-- CREATE
+CREATE TABLE Orcamento
+
+-- INSERT
+INSERT INTO Orcamento
+WHERE
