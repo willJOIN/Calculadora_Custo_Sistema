@@ -9,3 +9,8 @@
 
 ### Adrielli Alves Barboza
 #### RA: 822165213
+
+###
+
+### Thiago Santos da Silva
+#### RA: 822164973
