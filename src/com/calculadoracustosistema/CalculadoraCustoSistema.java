@@ -1,7 +1,6 @@
 package com.calculadoracustosistema;
 
 import java.util.HashMap;
-import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class CalculadoraCustoSistema {
@@ -13,10 +12,10 @@ public class CalculadoraCustoSistema {
         desenvolvedor.setSalarioMensalPretendido();
         desenvolvedor.setHorasDiariasDisponiveis();
 
-        LOGGER.log(Level.INFO,"Nome: {}", desenvolvedor.getNome());
-        LOGGER.log(Level.INFO,"Salário Mensal Pretendido: {}", desenvolvedor.getSalarioMensalPretendido());
-        LOGGER.log(Level.INFO,"Horas Mês: {}", desenvolvedor.getHorasDiarias());
-        LOGGER.log(Level.INFO,"Valor/Hora: {}", desenvolvedor.calculaValorHora());
+        LOGGER.info("Nome: " + desenvolvedor.getNome());
+        LOGGER.info("Salário mensal pretendido: " + desenvolvedor.getSalarioMensalPretendido());
+        LOGGER.info("Horas diárias: " + desenvolvedor.getHorasDiarias());
+        LOGGER.info("Valor/Hora: " + desenvolvedor.calculaValorHora());
 
         ItemSistema itemSistema = new ItemSistema();
         itemSistema.setQuantidade();

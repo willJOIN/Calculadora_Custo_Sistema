@@ -18,25 +18,31 @@ public final class ItemSistema {
 
         while (!Objects.equals(tipo, "sair")) {
             LOGGER.info("""
+                    
                     Digite o tipo de tela você quer no sistema:
                     
-                    "a. Tela com entradas e saídas de dados
-                    "b. Tela com consultas com informação de dados
-                    "c. Tela com gravação de dados
+                    a. Tela com entradas e saídas de dados
+                    b. Tela com consultas com informação de dados
+                    c. Tela com gravação de dados
                     
-                    Digite "sair" para parar de adicionar telas""");
+                    Digite "sair" para parar de adicionar telas
+                    
+                    """);
 
             tipo = leitor.next();
 
             if (!Objects.equals(tipo, "sair")) {
                 LOGGER.info("""
+                    
                     Digite o grau de dificuldade da tela que você quer no sistema:
                     
-                    "1. Fácil
-                    "2. Médio
-                    "3. Difícil
+                    1. Fácil
+                    2. Médio
+                    3. Difícil
                     
-                    Digite "sair" para parar de adicionar telas""");
+                    Digite "sair" para parar de adicionar telas
+                    
+                    """);
             } else {
                 break;
             }

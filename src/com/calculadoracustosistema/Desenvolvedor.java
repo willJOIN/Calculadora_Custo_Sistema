@@ -41,6 +41,6 @@ public final class Desenvolvedor {
     }
 
     double calculaValorHora() {
-        return (salarioMensalPretendido / DIAS_UTEIS * horasDiariasDisponiveis);
+        return (salarioMensalPretendido / (DIAS_UTEIS * horasDiariasDisponiveis));
     }
 }
