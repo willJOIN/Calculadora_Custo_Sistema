@@ -7,6 +7,3 @@ custoTotalSistema INT);
 
 -- INSERT
 INSERT INTO db.orcamento VALUES (tipoItemSistema , dificuldadeItemSistema,horaTotalSistema,custoTotalSistema);
-
-
-
