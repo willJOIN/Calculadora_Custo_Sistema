@@ -1,4 +1,4 @@
-# Calculadora Custo Sistema
+# Calculadora de Custo de Desenvolvimento de Sistemas
 
 ## Grupo
 
